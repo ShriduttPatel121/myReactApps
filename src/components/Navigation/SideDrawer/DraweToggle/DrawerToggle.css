@@ -1,0 +1,26 @@
+.DrawerToggle {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline:none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.DrawerToggle div {
+    width: 80%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: rgba(135, 135, 135, 0.76);
+}
+
+@media (min-width: 500px) {
+    .DrawerToggle {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.Order{
+    width: 80%;
+    border : 1px solid black;
+    box-shadow: 2px 3px 3px #040d24;
+    padding: 10px;
+    margin : 10px;
+    box-sizing: border-box;
+    background-color: midnightblue;
+    color: rgb(255, 255, 255);
+}
+/* Fuchsia 
+rgba(16, 7, 133, 0.76)*/
